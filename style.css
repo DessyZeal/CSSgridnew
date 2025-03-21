@@ -1,8 +1,9 @@
 .container {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    /* grid-column-gap: 5px; */
+    /* grid-row-gap: 5px; */
+    grid-gap: 1em;
 }
 .container > div {
     background: #eee;
@@ -11,4 +12,15 @@
 .container > div:nth-child(odd) {
     background-color: #ddd;
     
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.container2 > div {
+    background: #eee;
+    padding: 1em;
+}
+.container2 > div:nth-child(odd) {
+    background-color: #ddd;
 }
