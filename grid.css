@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+
+}
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 3em;
+}
+.title span{
+    font-size: 14px;
+}
+#container {
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid pink;
+}
