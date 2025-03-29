@@ -8,8 +8,9 @@ body {
 
 }
 .title {
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
+    font-weight: 800;
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: .5em;
@@ -24,4 +25,18 @@ body {
     margin: 0 auto;
     background-color: whitesmoke;
     outline: 5px solid pink;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px;
+    grid-auto-rows: 50px;
+    gap: 10px;
+    /* grid-template-columns: repeat(3, 1fr); the minmax value the first value is the min we want our column to have and the max is the reverse
+} */
+.item {
+    background-color: skyblue;
+    color: black;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: center;
 }
