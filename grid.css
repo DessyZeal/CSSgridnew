@@ -30,6 +30,8 @@ body {
     grid-template-rows: 100px 50px;
     grid-auto-rows: 50px;
     gap: 10px;
+    padding: 5px;
+}
     /* grid-template-columns: repeat(3, 1fr); the minmax value the first value is the min we want our column to have and the max is the reverse
 } */
 .item {
