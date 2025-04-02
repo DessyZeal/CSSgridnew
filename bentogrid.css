@@ -13,6 +13,7 @@ body {
 }
 .box {
     background-color: blue;
+    border-radius: 7px;
 }
 .grid_container {
     display: grid;
