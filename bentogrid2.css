@@ -43,3 +43,12 @@
 .bento_grid .box:nth-child(5) {
     grid-area: box5;
 }
+.bento_grid .box:nth-child(6) {
+    grid-area: box6;
+}
+.bento_grid .box:nth-child(7) {
+    grid-area: box7;
+}
+.bento_grid .box:nth-child(8) {
+    grid-area: box8;
+}
