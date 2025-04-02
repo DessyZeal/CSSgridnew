@@ -25,6 +25,9 @@
     "box4 box5 box6 box3"
     "box4 box5 box6 box3"
     "box4 box7 box8 box8"
-    "b0x4 box7 box8 box8"
-    ;
+    "box4 box7 box8 box8"
+    "box4 box7 box8 box8";
+}
+.bento_grid .box:nth-child(1) {
+    
 }
