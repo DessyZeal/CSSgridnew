@@ -37,5 +37,5 @@
     grid-area: box4;
 }
 .bentogrid .box:nth-child(5) {
-    grid-area: box5;
+    /* grid-area: box5; */
 }
